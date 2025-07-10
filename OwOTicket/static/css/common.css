@@ -1,0 +1,120 @@
+/* 常用票务 */
+.ticket_content {
+	width: 96%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.ticket_item {
+	width: 100%;
+	height: 300rpx;
+	margin: 0 10rpx 10rpx 10rpx;
+	position: relative;
+}
+
+.ticket_item image {
+	width: 100%;
+	height: 300rpx;
+}
+
+.ticket_item text {
+	position: absolute;
+	color: #fff;
+}
+
+.ticket_name {
+	top: 30rpx;
+	left: 30rpx;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.ticket_price {
+	bottom: 80rpx;
+	right: 20rpx;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.ticket_refer {
+	bottom: 40rpx;
+	right: 20rpx;
+	font-size: 14px;
+	font-weight: 500;
+	opacity: 0.6;
+}
+
+/* 精选住宿 */
+.hotel_content {
+	width: 96%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.hotel_item {
+	width: 100%;
+	height: 450rpx;
+	margin: 0 10rpx 20rpx 10rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+}
+
+.hotel_item image {
+	width: 100%;
+	height: 350rpx;
+	border-radius: 10rpx;
+}
+
+.hotel_name {
+	display: flex;
+	justify-content: space-between;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.hotel_name text {
+	color: #36d3d6;
+}
+
+.hotel_refer {
+	padding: 10rpx;
+	opacity: 0.6;
+	font-size: 14px;
+}
+
+/* 热销纪念品 */
+.souvenir_content {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20rpx 0;
+}
+
+.souvenir_item {
+	width: 100%;
+	height: 530rpx;
+	background-color: #fff;
+	margin: 0 20rpx;
+}
+
+.souvenir_item image {
+	width: 100%;
+	height: 400rpx;
+}
+
+.souvenir_name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx;
+	color: #cac4c0;
+	font-size: 12px;
+}
+
+.souvenir_name text {
+	color: #36d3d6;
+	font-size: 16px;
+}
