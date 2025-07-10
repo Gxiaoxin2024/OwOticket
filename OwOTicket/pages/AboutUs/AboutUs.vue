@@ -83,7 +83,7 @@
 				</view>
 				<view class="contact-item" @click="copyEmail">
 					<text class="contact-label">邮箱地址</text>
-					<text class="contact-value">service@owoticket.com</text>
+					<text class="contact-value">2507067216@qq.com</text>
 				</view>
 				<view class="contact-item">
 					<text class="contact-label">工作时间</text>
@@ -136,7 +136,7 @@ function callPhone() {
 // 复制邮箱地址
 function copyEmail() {
 	uni.setClipboardData({
-		data: 'service@owoticket.com',
+		data: '2507067216@qq.com',
 		success: () => {
 			uni.showToast({
 				title: '邮箱地址已复制',
