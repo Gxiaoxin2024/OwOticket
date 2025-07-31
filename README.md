@@ -553,7 +553,7 @@ class UserService {
 
 - **项目作者**: 甘大鹏
 - **邮箱**: 2507067216@qq.com
-- **GitHub**: [GitHub 地址]
+- **GitHub**: [[GitHub 地址]](https://github.com/Gxiaoxin2024/OwOticket.git)
 
 ---
 
